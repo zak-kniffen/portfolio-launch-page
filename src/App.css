@@ -1,11 +1,22 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.small{
+  font: bold 10px sans-serif;
+}
+
+
+.container {
+  width:50%;
+  height:50%;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +25,13 @@
 }
 
 .App-header {
+  
   background-color: #282c34;
+  background-image: url("../src/myBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100% 200%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
