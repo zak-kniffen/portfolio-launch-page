@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("./triforce-webfont.woff2");
+}
+
+
 .App {
   text-align: center;
-  
+  background-color: #ffc07a;
 }
 
 .App-logo {
@@ -9,9 +15,18 @@
 }
 
 .small{
-  font: bold 10px sans-serif;
+  font: bold 9px sans-serif;
+  font-family: myFirstFont;
+  letter-spacing: 0.1em;
 }
+.image {
+  height: 72px;
+  width: 72px;
+background: 
+url("./bushSprite.png") -560px -71px;
+background-size: 2000% 910%;
 
+}
 
 .container {
   width:50%;
@@ -23,11 +38,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#flexTop{
+  display:flex;
+  justify-content: space-around;
+  top:0px;
+}
 .App-header {
   
-  background-color: #282c34;
-  background-image: url("../src/myBackground.jpg");
+  
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
