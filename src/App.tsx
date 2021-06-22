@@ -11,10 +11,41 @@ function App() {
       <p className="image"> </p>
       <p className="image"> </p>
       <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
+      
+      
+      
+      
       </div>
+      <div id="flexLeft">
+      <p className="image"> </p>
+      <p className="image"> </p>
+      <p className="image"> </p>
+      <p className="image"> </p>
+      
+      
+      
+      </div>
+      <div id="flexRight">
+      <p className="image"> </p>
+      <p className="image"> </p>
+      <p className="image"> </p>
+      <p className="image"> </p>
+      
+      
+
+      </div>
+      <div id="pageBottom">
+        <div id="flexBottom">
+        
+        <p className="image"> </p>
+        <p className="image"> </p>
+        <p className="image"> </p>
+        <p className="image"> </p>
+        
+
+        </div>
+      </div>
+
       <header className="App-header">
         
 
