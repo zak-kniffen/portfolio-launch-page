@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-launch-page/static/css/main.4f44ad7b.chunk.css",
+    "main.css": "/portfolio-launch-page/static/css/main.40a8ebf6.chunk.css",
     "main.js": "/portfolio-launch-page/static/js/main.a3ffb666.chunk.js",
     "main.js.map": "/portfolio-launch-page/static/js/main.a3ffb666.chunk.js.map",
     "runtime-main.js": "/portfolio-launch-page/static/js/runtime-main.1d5bc3dc.js",
@@ -10,14 +10,14 @@
     "static/js/3.f6626e2b.chunk.js": "/portfolio-launch-page/static/js/3.f6626e2b.chunk.js",
     "static/js/3.f6626e2b.chunk.js.map": "/portfolio-launch-page/static/js/3.f6626e2b.chunk.js.map",
     "index.html": "/portfolio-launch-page/index.html",
-    "static/css/main.4f44ad7b.chunk.css.map": "/portfolio-launch-page/static/css/main.4f44ad7b.chunk.css.map",
+    "static/css/main.40a8ebf6.chunk.css.map": "/portfolio-launch-page/static/css/main.40a8ebf6.chunk.css.map",
     "static/js/2.8468027d.chunk.js.LICENSE.txt": "/portfolio-launch-page/static/js/2.8468027d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-launch-page/static/media/triforce-webfont.f216b3be.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.1d5bc3dc.js",
     "static/js/2.8468027d.chunk.js",
-    "static/css/main.4f44ad7b.chunk.css",
+    "static/css/main.40a8ebf6.chunk.css",
     "static/js/main.a3ffb666.chunk.js"
   ]
 }
