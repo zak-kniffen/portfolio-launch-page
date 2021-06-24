@@ -1,35 +1,38 @@
 import React from 'react';
 import logo from './logo.svg';
 import triforce from './clipart1751770.png';
+import BurningBush from './components/BurningBush'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+
+      <h1 id="myName" >Software by Zak Kniffen</h1>
       <div id="flexTop">
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
       
       
       
       
       </div>
       <div id="flexLeft">
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
       
       
       
       </div>
       <div id="flexRight">
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
-      <p className="image"> </p>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
       
       
 
@@ -37,10 +40,10 @@ function App() {
       <div id="pageBottom">
         <div id="flexBottom">
         
-        <p className="image"> </p>
-        <p className="image"> </p>
-        <p className="image"> </p>
-        <p className="image"> </p>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
+      <BurningBush/>
         
 
         </div>

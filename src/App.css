@@ -7,12 +7,18 @@
 .App {
   text-align: center;
   background-color: #ffc07a;
-  max-height:min-content
+  max-height:min-content;
+  font-family: myFirstFont;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#myName{
+  position: fixed;
+  top: 5em;
+  left: 8em;
 }
 
 .small{
@@ -21,6 +27,7 @@
   letter-spacing: 0.1em;
 }
 .image {
+  transition: all 0.2s ease;
   height: 5em;
   width: 5em;
 background: 
@@ -28,6 +35,24 @@ url("./bushSprite.png") 0px 0px;
 background-size: 100% 100%;
 
 }
+.image:hover {
+  height: 5em;
+  width: 5em;
+background: 
+url("./zeldaFlame.gif") 0px 0px;
+background-size: 100% 100%;
+
+}
+.burnt {
+  transition: all 0.2s ease;
+  height: 5em;
+  width: 5em;
+background: 
+url("./burntBushSprite.png") 0px 0px;
+background-size: 100% 100%;
+
+}
+
 
 .container {
   position:fixed;
