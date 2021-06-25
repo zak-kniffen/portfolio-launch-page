@@ -10,29 +10,30 @@ function App() {
 
       <h1 id="myName" >Software by Zak Kniffen</h1>
       <div id="flexTop">
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+
       
       
       
       
       </div>
       <div id="flexLeft">
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
       
       
       
       </div>
       <div id="flexRight">
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"stairs"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
       
       
 
@@ -40,10 +41,10 @@ function App() {
       <div id="pageBottom">
         <div id="flexBottom">
         
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
-      <BurningBush/>
+        <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
+      <BurningBush underneath={"burnt"}/>
         
 
         </div>
