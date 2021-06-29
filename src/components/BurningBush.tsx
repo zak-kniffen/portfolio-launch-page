@@ -15,16 +15,17 @@ const BurningBush = (underneath: any) => {
             setTimeout(function(){ e.target.className = "burning"; }, 1250);
             setTimeout(function(){ e.target.className = "burningMirror"; }, 1500);
             setTimeout(function(){ e.target.className = underneath.underneath; }, 1750);
+        }     
+    }
+    const stairsClick = (e: any) => {
+        if(e.target.className == "stairs"){
+            window.location.href = "https://www.zelda.com/";
         }
-
-
-        
-        
     }
 
     
     return (
-        <p data-testid="bushSprite" aria-details="" className="image"  onMouseEnter={myChange}></p>
+        <p data-testid="bushSprite" aria-details="" className="image" onClick={stairsClick} onMouseEnter={myChange}></p>
     );
 };
 
