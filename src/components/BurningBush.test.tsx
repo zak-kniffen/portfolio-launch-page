@@ -4,6 +4,6 @@ import BurningBush from './BurningBush';
 
 test('renders learn react link', () => {
   render(<BurningBush />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const pElement = screen.getByTestId(/bushSprite/i)
+  expect(pElement).toBeInTheDocument();
 });

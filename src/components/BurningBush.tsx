@@ -24,7 +24,7 @@ const BurningBush = (underneath: any) => {
 
     
     return (
-        <p className="image"  onMouseEnter={myChange}> </p>
+        <p data-testid="bushSprite" aria-details="" className="image"  onMouseEnter={myChange}></p>
     );
 };
 

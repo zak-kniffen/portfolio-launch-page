@@ -7,8 +7,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
-      <h1 id="myName" >Software by Zak Kniffen</h1>
+      <div  id="myName" >
+      <h1>Software by Zak Kniffen</h1>
+      </div>
+      
       <div id="flexTop">
       <BurningBush underneath={"burnt"}/>
       <BurningBush underneath={"burnt"}/>
